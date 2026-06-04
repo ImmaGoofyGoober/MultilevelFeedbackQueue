@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MultilevelFeedbackQueue/MultilevelFeedbackQueue.vcxproj" Id="85eaa77d-10f8-4593-98f0-1e583d947ca7" />
+</Solution>
