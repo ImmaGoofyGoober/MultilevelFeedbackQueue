@@ -14,7 +14,7 @@ int main() {
 
 	simulation.StartSimulation();
 
-	const auto end = std::chrono::high_resolution_clock::now();
+	const auto end = std::chrono::steady_clock::now();
 	const  std::chrono::duration<double> duration = end - start;
 
 	std::cout << "Elapsed Simulation Time: " << duration << "\n";
