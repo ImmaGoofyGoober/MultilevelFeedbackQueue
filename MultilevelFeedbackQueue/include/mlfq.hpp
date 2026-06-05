@@ -4,7 +4,7 @@
 #include <cstdint>
 #include <deque>
 #include <vector>
-#include <map>
+#include <unordered_map>
 
 #include "process.hpp"
 
@@ -16,7 +16,7 @@ struct Queue {
 class MLFQ {
 private:
 	std::vector<Queue> queues_{ 3 };
-	std::map<uint32_t, std::unique_ptr<Process>> blockedProcesses_{};
+	std::unordered_map<uint32_t, std::unique_ptr<Process>> blockedProcesses_{};
 	std::deque<uint32_t> blockedProcessIDs_{};
 
 public:
