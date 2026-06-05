@@ -4,8 +4,8 @@ Process ID: 1
 Process State: Ready
 Process Priority Level: 0
 Process Type: CPU_BOUND
-Remaining Runtime: 1406
-Remaining Burst Time: 209
+Remaining Runtime: 1256
+Remaining Burst Time: 433
 Total Block Count: 0
 
 ---After Running---
@@ -14,8 +14,8 @@ Process ID: 1
 Process State: Running
 Process Priority Level: 1
 Process Type: CPU_BOUND
-Remaining Runtime: 1401
-Remaining Burst Time: 204
+Remaining Runtime: 1251
+Remaining Burst Time: 428
 Total Block Count: 0
 
 ---Before Running---
@@ -24,8 +24,8 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 190
-Remaining Burst Time: 8
+Remaining Runtime: 198
+Remaining Burst Time: 6
 Total Block Count: 0
 
 ---After Running---
@@ -34,8 +34,8 @@ Process ID: 2
 Process State: Running
 Process Priority Level: 1
 Process Type: IO_BOUND
-Remaining Runtime: 185
-Remaining Burst Time: 3
+Remaining Runtime: 193
+Remaining Burst Time: 1
 Total Block Count: 0
 
 ---Before Running---
@@ -44,8 +44,8 @@ Process ID: 1
 Process State: Ready
 Process Priority Level: 1
 Process Type: CPU_BOUND
-Remaining Runtime: 1401
-Remaining Burst Time: 204
+Remaining Runtime: 1251
+Remaining Burst Time: 428
 Total Block Count: 0
 
 ---After Running---
@@ -54,8 +54,8 @@ Process ID: 1
 Process State: Running
 Process Priority Level: 2
 Process Type: CPU_BOUND
-Remaining Runtime: 1391
-Remaining Burst Time: 194
+Remaining Runtime: 1241
+Remaining Burst Time: 418
 Total Block Count: 0
 
 ---Before Running---
@@ -64,38 +64,38 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 1
 Process Type: IO_BOUND
-Remaining Runtime: 185
+Remaining Runtime: 193
+Remaining Burst Time: 1
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 192
+Remaining Burst Time: 0
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 192
+Remaining Burst Time: 8
+Total Block Count: 1
+
+---After Running---
+
+Process ID: 2
+Process State: Running
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 187
 Remaining Burst Time: 3
-Total Block Count: 0
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 182
-Remaining Burst Time: 0
-Total Block Count: 0
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 182
-Remaining Burst Time: 10
-Total Block Count: 1
-
----After Running---
-
-Process ID: 2
-Process State: Running
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 177
-Remaining Burst Time: 5
 Total Block Count: 1
 
 ---Before Running---
@@ -104,8 +104,8 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 1
 Process Type: IO_BOUND
-Remaining Runtime: 177
-Remaining Burst Time: 5
+Remaining Runtime: 187
+Remaining Burst Time: 3
 Total Block Count: 1
 
 ---After Running---
@@ -114,7 +114,7 @@ Process ID: 2
 Process State: Blocked
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 172
+Remaining Runtime: 184
 Remaining Burst Time: 0
 Total Block Count: 1
 
@@ -124,8 +124,8 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 172
-Remaining Burst Time: 6
+Remaining Runtime: 184
+Remaining Burst Time: 8
 Total Block Count: 2
 
 ---After Running---
@@ -134,8 +134,8 @@ Process ID: 2
 Process State: Running
 Process Priority Level: 1
 Process Type: IO_BOUND
-Remaining Runtime: 167
-Remaining Burst Time: 1
+Remaining Runtime: 179
+Remaining Burst Time: 3
 Total Block Count: 2
 
 ---Before Running---
@@ -144,8 +144,8 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 1
 Process Type: IO_BOUND
-Remaining Runtime: 167
-Remaining Burst Time: 1
+Remaining Runtime: 179
+Remaining Burst Time: 3
 Total Block Count: 2
 
 ---After Running---
@@ -154,7 +154,7 @@ Process ID: 2
 Process State: Blocked
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 166
+Remaining Runtime: 176
 Remaining Burst Time: 0
 Total Block Count: 2
 
@@ -164,28 +164,8 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 166
-Remaining Burst Time: 10
-Total Block Count: 3
-
----After Running---
-
-Process ID: 2
-Process State: Running
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 161
-Remaining Burst Time: 5
-Total Block Count: 3
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 161
-Remaining Burst Time: 5
+Remaining Runtime: 176
+Remaining Burst Time: 2
 Total Block Count: 3
 
 ---After Running---
@@ -194,7 +174,7 @@ Process ID: 2
 Process State: Blocked
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 156
+Remaining Runtime: 174
 Remaining Burst Time: 0
 Total Block Count: 3
 
@@ -204,7 +184,7 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 156
+Remaining Runtime: 174
 Remaining Burst Time: 3
 Total Block Count: 4
 
@@ -214,7 +194,7 @@ Process ID: 2
 Process State: Blocked
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 153
+Remaining Runtime: 171
 Remaining Burst Time: 0
 Total Block Count: 4
 
@@ -224,7 +204,7 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 153
+Remaining Runtime: 171
 Remaining Burst Time: 7
 Total Block Count: 5
 
@@ -234,7 +214,7 @@ Process ID: 2
 Process State: Running
 Process Priority Level: 1
 Process Type: IO_BOUND
-Remaining Runtime: 148
+Remaining Runtime: 166
 Remaining Burst Time: 2
 Total Block Count: 5
 
@@ -244,7 +224,7 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 1
 Process Type: IO_BOUND
-Remaining Runtime: 148
+Remaining Runtime: 166
 Remaining Burst Time: 2
 Total Block Count: 5
 
@@ -254,7 +234,7 @@ Process ID: 2
 Process State: Blocked
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 146
+Remaining Runtime: 164
 Remaining Burst Time: 0
 Total Block Count: 5
 
@@ -264,8 +244,8 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 146
-Remaining Burst Time: 6
+Remaining Runtime: 164
+Remaining Burst Time: 7
 Total Block Count: 6
 
 ---After Running---
@@ -274,9 +254,49 @@ Process ID: 2
 Process State: Running
 Process Priority Level: 1
 Process Type: IO_BOUND
-Remaining Runtime: 141
-Remaining Burst Time: 1
+Remaining Runtime: 159
+Remaining Burst Time: 2
 Total Block Count: 6
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 159
+Remaining Burst Time: 2
+Total Block Count: 6
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 157
+Remaining Burst Time: 0
+Total Block Count: 6
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 157
+Remaining Burst Time: 7
+Total Block Count: 7
+
+---After Running---
+
+Process ID: 2
+Process State: Running
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 152
+Remaining Burst Time: 2
+Total Block Count: 7
 
 Priority Boost
 
@@ -286,48 +306,8 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 141
-Remaining Burst Time: 1
-Total Block Count: 6
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 140
-Remaining Burst Time: 0
-Total Block Count: 6
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 1391
-Remaining Burst Time: 194
-Total Block Count: 0
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 1386
-Remaining Burst Time: 189
-Total Block Count: 0
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 140
-Remaining Burst Time: 5
+Remaining Runtime: 152
+Remaining Burst Time: 2
 Total Block Count: 7
 
 ---After Running---
@@ -336,29 +316,29 @@ Process ID: 2
 Process State: Blocked
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 135
+Remaining Runtime: 150
 Remaining Burst Time: 0
 Total Block Count: 7
 
 ---Before Running---
 
-Process ID: 2
+Process ID: 1
 Process State: Ready
 Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 135
-Remaining Burst Time: 2
-Total Block Count: 8
+Process Type: CPU_BOUND
+Remaining Runtime: 1241
+Remaining Burst Time: 418
+Total Block Count: 0
 
 ---After Running---
 
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 133
-Remaining Burst Time: 0
-Total Block Count: 8
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 1236
+Remaining Burst Time: 413
+Total Block Count: 0
 
 ---Before Running---
 
@@ -366,29 +346,9 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 133
-Remaining Burst Time: 2
-Total Block Count: 9
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 131
-Remaining Burst Time: 0
-Total Block Count: 9
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 131
-Remaining Burst Time: 7
-Total Block Count: 10
+Remaining Runtime: 150
+Remaining Burst Time: 9
+Total Block Count: 8
 
 ---After Running---
 
@@ -396,9 +356,9 @@ Process ID: 2
 Process State: Running
 Process Priority Level: 1
 Process Type: IO_BOUND
-Remaining Runtime: 126
-Remaining Burst Time: 2
-Total Block Count: 10
+Remaining Runtime: 145
+Remaining Burst Time: 4
+Total Block Count: 8
 
 ---Before Running---
 
@@ -406,8 +366,8 @@ Process ID: 1
 Process State: Ready
 Process Priority Level: 1
 Process Type: CPU_BOUND
-Remaining Runtime: 1386
-Remaining Burst Time: 189
+Remaining Runtime: 1236
+Remaining Burst Time: 413
 Total Block Count: 0
 
 ---After Running---
@@ -416,8 +376,8 @@ Process ID: 1
 Process State: Running
 Process Priority Level: 2
 Process Type: CPU_BOUND
-Remaining Runtime: 1376
-Remaining Burst Time: 179
+Remaining Runtime: 1226
+Remaining Burst Time: 403
 Total Block Count: 0
 
 ---Before Running---
@@ -426,8 +386,88 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 1
 Process Type: IO_BOUND
-Remaining Runtime: 126
+Remaining Runtime: 145
+Remaining Burst Time: 4
+Total Block Count: 8
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 141
+Remaining Burst Time: 0
+Total Block Count: 8
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 141
+Remaining Burst Time: 7
+Total Block Count: 9
+
+---After Running---
+
+Process ID: 2
+Process State: Running
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 136
 Remaining Burst Time: 2
+Total Block Count: 9
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 136
+Remaining Burst Time: 2
+Total Block Count: 9
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 134
+Remaining Burst Time: 0
+Total Block Count: 9
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 134
+Remaining Burst Time: 10
+Total Block Count: 10
+
+---After Running---
+
+Process ID: 2
+Process State: Running
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 129
+Remaining Burst Time: 5
+Total Block Count: 10
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 129
+Remaining Burst Time: 5
 Total Block Count: 10
 
 ---After Running---
@@ -447,7 +487,7 @@ Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
 Remaining Runtime: 124
-Remaining Burst Time: 4
+Remaining Burst Time: 1
 Total Block Count: 11
 
 ---After Running---
@@ -456,7 +496,7 @@ Process ID: 2
 Process State: Blocked
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 120
+Remaining Runtime: 123
 Remaining Burst Time: 0
 Total Block Count: 11
 
@@ -466,7 +506,7 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 120
+Remaining Runtime: 123
 Remaining Burst Time: 1
 Total Block Count: 12
 
@@ -476,7 +516,7 @@ Process ID: 2
 Process State: Blocked
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 119
+Remaining Runtime: 122
 Remaining Burst Time: 0
 Total Block Count: 12
 
@@ -486,17 +526,17 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
+Remaining Runtime: 122
+Remaining Burst Time: 3
+Total Block Count: 13
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
 Remaining Runtime: 119
-Remaining Burst Time: 4
-Total Block Count: 13
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 115
 Remaining Burst Time: 0
 Total Block Count: 13
 
@@ -506,8 +546,8 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 115
-Remaining Burst Time: 9
+Remaining Runtime: 119
+Remaining Burst Time: 10
 Total Block Count: 14
 
 ---After Running---
@@ -516,8 +556,8 @@ Process ID: 2
 Process State: Running
 Process Priority Level: 1
 Process Type: IO_BOUND
-Remaining Runtime: 110
-Remaining Burst Time: 4
+Remaining Runtime: 114
+Remaining Burst Time: 5
 Total Block Count: 14
 
 ---Before Running---
@@ -526,8 +566,8 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 1
 Process Type: IO_BOUND
-Remaining Runtime: 110
-Remaining Burst Time: 4
+Remaining Runtime: 114
+Remaining Burst Time: 5
 Total Block Count: 14
 
 ---After Running---
@@ -536,7 +576,7 @@ Process ID: 2
 Process State: Blocked
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 106
+Remaining Runtime: 109
 Remaining Burst Time: 0
 Total Block Count: 14
 
@@ -546,28 +586,8 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 106
-Remaining Burst Time: 8
-Total Block Count: 15
-
----After Running---
-
-Process ID: 2
-Process State: Running
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 101
-Remaining Burst Time: 3
-Total Block Count: 15
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 101
-Remaining Burst Time: 3
+Remaining Runtime: 109
+Remaining Burst Time: 1
 Total Block Count: 15
 
 ---After Running---
@@ -576,7 +596,7 @@ Process ID: 2
 Process State: Blocked
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 98
+Remaining Runtime: 108
 Remaining Burst Time: 0
 Total Block Count: 15
 
@@ -586,8 +606,8 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 98
-Remaining Burst Time: 3
+Remaining Runtime: 108
+Remaining Burst Time: 5
 Total Block Count: 16
 
 ---After Running---
@@ -596,7 +616,7 @@ Process ID: 2
 Process State: Blocked
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 95
+Remaining Runtime: 103
 Remaining Burst Time: 0
 Total Block Count: 16
 
@@ -606,28 +626,8 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 95
-Remaining Burst Time: 6
-Total Block Count: 17
-
----After Running---
-
-Process ID: 2
-Process State: Running
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 90
-Remaining Burst Time: 1
-Total Block Count: 17
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 90
-Remaining Burst Time: 1
+Remaining Runtime: 103
+Remaining Burst Time: 4
 Total Block Count: 17
 
 ---After Running---
@@ -636,7 +636,7 @@ Process ID: 2
 Process State: Blocked
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 89
+Remaining Runtime: 99
 Remaining Burst Time: 0
 Total Block Count: 17
 
@@ -646,19 +646,39 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 89
-Remaining Burst Time: 9
+Remaining Runtime: 99
+Remaining Burst Time: 1
 Total Block Count: 18
 
 ---After Running---
 
 Process ID: 2
-Process State: Running
-Process Priority Level: 1
+Process State: Blocked
+Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 84
-Remaining Burst Time: 4
+Remaining Runtime: 98
+Remaining Burst Time: 0
 Total Block Count: 18
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 98
+Remaining Burst Time: 1
+Total Block Count: 19
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 97
+Remaining Burst Time: 0
+Total Block Count: 19
 
 Priority Boost
 
@@ -668,309 +688,9 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 84
-Remaining Burst Time: 4
-Total Block Count: 18
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 80
-Remaining Burst Time: 0
-Total Block Count: 18
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 1376
-Remaining Burst Time: 179
-Total Block Count: 0
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 1371
-Remaining Burst Time: 174
-Total Block Count: 0
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 80
-Remaining Burst Time: 2
-Total Block Count: 19
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 78
-Remaining Burst Time: 0
-Total Block Count: 19
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 78
-Remaining Burst Time: 1
-Total Block Count: 20
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 77
-Remaining Burst Time: 0
-Total Block Count: 20
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 77
-Remaining Burst Time: 5
-Total Block Count: 21
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 72
-Remaining Burst Time: 0
-Total Block Count: 21
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 72
-Remaining Burst Time: 6
-Total Block Count: 22
-
----After Running---
-
-Process ID: 2
-Process State: Running
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 67
-Remaining Burst Time: 1
-Total Block Count: 22
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 1371
-Remaining Burst Time: 174
-Total Block Count: 0
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1361
-Remaining Burst Time: 164
-Total Block Count: 0
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 67
-Remaining Burst Time: 1
-Total Block Count: 22
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 66
-Remaining Burst Time: 0
-Total Block Count: 22
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 66
-Remaining Burst Time: 1
-Total Block Count: 23
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 65
-Remaining Burst Time: 0
-Total Block Count: 23
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 65
-Remaining Burst Time: 10
-Total Block Count: 24
-
----After Running---
-
-Process ID: 2
-Process State: Running
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 60
-Remaining Burst Time: 5
-Total Block Count: 24
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 60
-Remaining Burst Time: 5
-Total Block Count: 24
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 55
-Remaining Burst Time: 0
-Total Block Count: 24
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 55
-Remaining Burst Time: 6
-Total Block Count: 25
-
----After Running---
-
-Process ID: 2
-Process State: Running
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 50
-Remaining Burst Time: 1
-Total Block Count: 25
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 50
-Remaining Burst Time: 1
-Total Block Count: 25
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 49
-Remaining Burst Time: 0
-Total Block Count: 25
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 49
-Remaining Burst Time: 9
-Total Block Count: 26
-
----After Running---
-
-Process ID: 2
-Process State: Running
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 44
-Remaining Burst Time: 4
-Total Block Count: 26
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 44
-Remaining Burst Time: 4
-Total Block Count: 26
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 40
-Remaining Burst Time: 0
-Total Block Count: 26
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 40
+Remaining Runtime: 97
 Remaining Burst Time: 7
-Total Block Count: 27
+Total Block Count: 20
 
 ---After Running---
 
@@ -978,9 +698,29 @@ Process ID: 2
 Process State: Running
 Process Priority Level: 1
 Process Type: IO_BOUND
-Remaining Runtime: 35
+Remaining Runtime: 92
 Remaining Burst Time: 2
-Total Block Count: 27
+Total Block Count: 20
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 1226
+Remaining Burst Time: 403
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 1221
+Remaining Burst Time: 398
+Total Block Count: 0
 
 ---Before Running---
 
@@ -988,9 +728,9 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 1
 Process Type: IO_BOUND
-Remaining Runtime: 35
+Remaining Runtime: 92
 Remaining Burst Time: 2
-Total Block Count: 27
+Total Block Count: 20
 
 ---After Running---
 
@@ -998,11 +738,9 @@ Process ID: 2
 Process State: Blocked
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 33
+Remaining Runtime: 90
 Remaining Burst Time: 0
-Total Block Count: 27
-
-Priority Boost
+Total Block Count: 20
 
 ---Before Running---
 
@@ -1010,109 +748,9 @@ Process ID: 2
 Process State: Ready
 Process Priority Level: 0
 Process Type: IO_BOUND
-Remaining Runtime: 33
-Remaining Burst Time: 1
-Total Block Count: 28
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 32
-Remaining Burst Time: 0
-Total Block Count: 28
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 1361
-Remaining Burst Time: 164
-Total Block Count: 0
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 1356
-Remaining Burst Time: 159
-Total Block Count: 0
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 32
-Remaining Burst Time: 10
-Total Block Count: 29
-
----After Running---
-
-Process ID: 2
-Process State: Running
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 27
-Remaining Burst Time: 5
-Total Block Count: 29
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 1356
-Remaining Burst Time: 159
-Total Block Count: 0
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1346
-Remaining Burst Time: 149
-Total Block Count: 0
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 27
-Remaining Burst Time: 5
-Total Block Count: 29
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 22
-Remaining Burst Time: 0
-Total Block Count: 29
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 22
+Remaining Runtime: 90
 Remaining Burst Time: 8
-Total Block Count: 30
+Total Block Count: 21
 
 ---After Running---
 
@@ -1120,231 +758,9 @@ Process ID: 2
 Process State: Running
 Process Priority Level: 1
 Process Type: IO_BOUND
-Remaining Runtime: 17
+Remaining Runtime: 85
 Remaining Burst Time: 3
-Total Block Count: 30
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 1
-Process Type: IO_BOUND
-Remaining Runtime: 17
-Remaining Burst Time: 3
-Total Block Count: 30
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 14
-Remaining Burst Time: 0
-Total Block Count: 30
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 14
-Remaining Burst Time: 3
-Total Block Count: 31
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 11
-Remaining Burst Time: 0
-Total Block Count: 31
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 11
-Remaining Burst Time: 2
-Total Block Count: 32
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 9
-Remaining Burst Time: 0
-Total Block Count: 32
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 9
-Remaining Burst Time: 5
-Total Block Count: 33
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 4
-Remaining Burst Time: 0
-Total Block Count: 33
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 4
-Remaining Burst Time: 1
-Total Block Count: 34
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 3
-Remaining Burst Time: 0
-Total Block Count: 34
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 3
-Remaining Burst Time: 2
-Total Block Count: 35
-
----After Running---
-
-Process ID: 2
-Process State: Blocked
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 1
-Remaining Burst Time: 0
-Total Block Count: 35
-
----Before Running---
-
-Process ID: 2
-Process State: Ready
-Process Priority Level: 0
-Process Type: IO_BOUND
-Remaining Runtime: 1
-Remaining Burst Time: 1
-Total Block Count: 36
-
----After Running---
-
-Process ID: 2
-Process State: Terminated
-Process Priority Level: -1
-Process Type: IO_BOUND
-Remaining Runtime: 0
-Remaining Burst Time: 0
-Total Block Count: 36
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1346
-Remaining Burst Time: 149
-Total Block Count: 0
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1331
-Remaining Burst Time: 134
-Total Block Count: 0
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1331
-Remaining Burst Time: 134
-Total Block Count: 0
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1316
-Remaining Burst Time: 119
-Total Block Count: 0
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1316
-Remaining Burst Time: 119
-Total Block Count: 0
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1301
-Remaining Burst Time: 104
-Total Block Count: 0
-
-Priority Boost
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 1301
-Remaining Burst Time: 104
-Total Block Count: 0
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 1296
-Remaining Burst Time: 99
-Total Block Count: 0
+Total Block Count: 21
 
 ---Before Running---
 
@@ -1352,108 +768,8 @@ Process ID: 1
 Process State: Ready
 Process Priority Level: 1
 Process Type: CPU_BOUND
-Remaining Runtime: 1296
-Remaining Burst Time: 99
-Total Block Count: 0
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1286
-Remaining Burst Time: 89
-Total Block Count: 0
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1286
-Remaining Burst Time: 89
-Total Block Count: 0
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1271
-Remaining Burst Time: 74
-Total Block Count: 0
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1271
-Remaining Burst Time: 74
-Total Block Count: 0
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1256
-Remaining Burst Time: 59
-Total Block Count: 0
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1256
-Remaining Burst Time: 59
-Total Block Count: 0
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1241
-Remaining Burst Time: 44
-Total Block Count: 0
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1241
-Remaining Burst Time: 44
-Total Block Count: 0
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1226
-Remaining Burst Time: 29
-Total Block Count: 0
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1226
-Remaining Burst Time: 29
+Remaining Runtime: 1221
+Remaining Burst Time: 398
 Total Block Count: 0
 
 ---After Running---
@@ -1463,10 +779,310 @@ Process State: Running
 Process Priority Level: 2
 Process Type: CPU_BOUND
 Remaining Runtime: 1211
-Remaining Burst Time: 14
+Remaining Burst Time: 388
 Total Block Count: 0
 
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 85
+Remaining Burst Time: 3
+Total Block Count: 21
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 82
+Remaining Burst Time: 0
+Total Block Count: 21
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 82
+Remaining Burst Time: 4
+Total Block Count: 22
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 78
+Remaining Burst Time: 0
+Total Block Count: 22
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 78
+Remaining Burst Time: 8
+Total Block Count: 23
+
+---After Running---
+
+Process ID: 2
+Process State: Running
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 73
+Remaining Burst Time: 3
+Total Block Count: 23
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 73
+Remaining Burst Time: 3
+Total Block Count: 23
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 70
+Remaining Burst Time: 0
+Total Block Count: 23
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 70
+Remaining Burst Time: 2
+Total Block Count: 24
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 68
+Remaining Burst Time: 0
+Total Block Count: 24
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 68
+Remaining Burst Time: 1
+Total Block Count: 25
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 67
+Remaining Burst Time: 0
+Total Block Count: 25
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 67
+Remaining Burst Time: 8
+Total Block Count: 26
+
+---After Running---
+
+Process ID: 2
+Process State: Running
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 62
+Remaining Burst Time: 3
+Total Block Count: 26
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 62
+Remaining Burst Time: 3
+Total Block Count: 26
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 59
+Remaining Burst Time: 0
+Total Block Count: 26
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 59
+Remaining Burst Time: 5
+Total Block Count: 27
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 54
+Remaining Burst Time: 0
+Total Block Count: 27
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 54
+Remaining Burst Time: 5
+Total Block Count: 28
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 49
+Remaining Burst Time: 0
+Total Block Count: 28
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 49
+Remaining Burst Time: 2
+Total Block Count: 29
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 47
+Remaining Burst Time: 0
+Total Block Count: 29
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 47
+Remaining Burst Time: 1
+Total Block Count: 30
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 46
+Remaining Burst Time: 0
+Total Block Count: 30
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 46
+Remaining Burst Time: 2
+Total Block Count: 31
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 44
+Remaining Burst Time: 0
+Total Block Count: 31
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 44
+Remaining Burst Time: 7
+Total Block Count: 32
+
+---After Running---
+
+Process ID: 2
+Process State: Running
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 39
+Remaining Burst Time: 2
+Total Block Count: 32
+
 Priority Boost
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 39
+Remaining Burst Time: 2
+Total Block Count: 32
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 37
+Remaining Burst Time: 0
+Total Block Count: 32
 
 ---Before Running---
 
@@ -1475,7 +1091,7 @@ Process State: Ready
 Process Priority Level: 0
 Process Type: CPU_BOUND
 Remaining Runtime: 1211
-Remaining Burst Time: 14
+Remaining Burst Time: 388
 Total Block Count: 0
 
 ---After Running---
@@ -1485,2023 +1101,1981 @@ Process State: Running
 Process Priority Level: 1
 Process Type: CPU_BOUND
 Remaining Runtime: 1206
-Remaining Burst Time: 9
+Remaining Burst Time: 383
 Total Block Count: 0
 
 ---Before Running---
 
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 1206
-Remaining Burst Time: 9
-Total Block Count: 0
-
----After Running---
-
-Process ID: 1
-Process State: Blocked
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 1197
-Remaining Burst Time: 0
-Total Block Count: 0
-
----Before Running---
-
-Process ID: 1
+Process ID: 2
 Process State: Ready
 Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 1197
-Remaining Burst Time: 335
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 1192
-Remaining Burst Time: 330
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 1192
-Remaining Burst Time: 330
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1182
-Remaining Burst Time: 320
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1182
-Remaining Burst Time: 320
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1167
-Remaining Burst Time: 305
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1167
-Remaining Burst Time: 305
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1152
-Remaining Burst Time: 290
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1152
-Remaining Burst Time: 290
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1137
-Remaining Burst Time: 275
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1137
-Remaining Burst Time: 275
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1122
-Remaining Burst Time: 260
-Total Block Count: 1
-
-Priority Boost
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 1122
-Remaining Burst Time: 260
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 1117
-Remaining Burst Time: 255
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 1117
-Remaining Burst Time: 255
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1107
-Remaining Burst Time: 245
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1107
-Remaining Burst Time: 245
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1092
-Remaining Burst Time: 230
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1092
-Remaining Burst Time: 230
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1077
-Remaining Burst Time: 215
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1077
-Remaining Burst Time: 215
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1062
-Remaining Burst Time: 200
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1062
-Remaining Burst Time: 200
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1047
-Remaining Burst Time: 185
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1047
-Remaining Burst Time: 185
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1032
-Remaining Burst Time: 170
-Total Block Count: 1
-
-Priority Boost
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 1032
-Remaining Burst Time: 170
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 1027
-Remaining Burst Time: 165
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 1027
-Remaining Burst Time: 165
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1017
-Remaining Burst Time: 155
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1017
-Remaining Burst Time: 155
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1002
-Remaining Burst Time: 140
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 1002
-Remaining Burst Time: 140
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 987
-Remaining Burst Time: 125
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 987
-Remaining Burst Time: 125
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 972
-Remaining Burst Time: 110
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 972
-Remaining Burst Time: 110
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 957
-Remaining Burst Time: 95
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 957
-Remaining Burst Time: 95
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 942
-Remaining Burst Time: 80
-Total Block Count: 1
-
-Priority Boost
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 942
-Remaining Burst Time: 80
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 937
-Remaining Burst Time: 75
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 937
-Remaining Burst Time: 75
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 927
-Remaining Burst Time: 65
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 927
-Remaining Burst Time: 65
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 912
-Remaining Burst Time: 50
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 912
-Remaining Burst Time: 50
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 897
-Remaining Burst Time: 35
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 897
-Remaining Burst Time: 35
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 882
-Remaining Burst Time: 20
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 882
-Remaining Burst Time: 20
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 867
-Remaining Burst Time: 5
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 867
-Remaining Burst Time: 5
-Total Block Count: 1
-
----After Running---
-
-Process ID: 1
-Process State: Blocked
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 862
-Remaining Burst Time: 0
-Total Block Count: 1
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 862
-Remaining Burst Time: 361
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 857
-Remaining Burst Time: 356
-Total Block Count: 2
-
-Priority Boost
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 857
-Remaining Burst Time: 356
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 852
-Remaining Burst Time: 351
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 852
-Remaining Burst Time: 351
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 842
-Remaining Burst Time: 341
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 842
-Remaining Burst Time: 341
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 827
-Remaining Burst Time: 326
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 827
-Remaining Burst Time: 326
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 812
-Remaining Burst Time: 311
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 812
-Remaining Burst Time: 311
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 797
-Remaining Burst Time: 296
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 797
-Remaining Burst Time: 296
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 782
-Remaining Burst Time: 281
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 782
-Remaining Burst Time: 281
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 767
-Remaining Burst Time: 266
-Total Block Count: 2
-
-Priority Boost
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 767
-Remaining Burst Time: 266
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 762
-Remaining Burst Time: 261
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 762
-Remaining Burst Time: 261
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 752
-Remaining Burst Time: 251
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 752
-Remaining Burst Time: 251
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 737
-Remaining Burst Time: 236
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 737
-Remaining Burst Time: 236
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 722
-Remaining Burst Time: 221
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 722
-Remaining Burst Time: 221
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 707
-Remaining Burst Time: 206
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 707
-Remaining Burst Time: 206
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 692
-Remaining Burst Time: 191
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 692
-Remaining Burst Time: 191
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 677
-Remaining Burst Time: 176
-Total Block Count: 2
-
-Priority Boost
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 677
-Remaining Burst Time: 176
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 672
-Remaining Burst Time: 171
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 672
-Remaining Burst Time: 171
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 662
-Remaining Burst Time: 161
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 662
-Remaining Burst Time: 161
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 647
-Remaining Burst Time: 146
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 647
-Remaining Burst Time: 146
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 632
-Remaining Burst Time: 131
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 632
-Remaining Burst Time: 131
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 617
-Remaining Burst Time: 116
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 617
-Remaining Burst Time: 116
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 602
-Remaining Burst Time: 101
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 602
-Remaining Burst Time: 101
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 587
-Remaining Burst Time: 86
-Total Block Count: 2
-
-Priority Boost
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 587
-Remaining Burst Time: 86
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 582
-Remaining Burst Time: 81
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 582
-Remaining Burst Time: 81
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 572
-Remaining Burst Time: 71
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 572
-Remaining Burst Time: 71
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 557
-Remaining Burst Time: 56
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 557
-Remaining Burst Time: 56
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 542
-Remaining Burst Time: 41
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 542
-Remaining Burst Time: 41
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 527
-Remaining Burst Time: 26
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 527
-Remaining Burst Time: 26
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 512
-Remaining Burst Time: 11
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 512
-Remaining Burst Time: 11
-Total Block Count: 2
-
----After Running---
-
-Process ID: 1
-Process State: Blocked
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 501
-Remaining Burst Time: 0
-Total Block Count: 2
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 501
-Remaining Burst Time: 145
-Total Block Count: 3
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 496
-Remaining Burst Time: 140
-Total Block Count: 3
-
-Priority Boost
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 496
-Remaining Burst Time: 140
-Total Block Count: 3
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 491
-Remaining Burst Time: 135
-Total Block Count: 3
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 491
-Remaining Burst Time: 135
-Total Block Count: 3
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 481
-Remaining Burst Time: 125
-Total Block Count: 3
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 481
-Remaining Burst Time: 125
-Total Block Count: 3
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 466
-Remaining Burst Time: 110
-Total Block Count: 3
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 466
-Remaining Burst Time: 110
-Total Block Count: 3
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 451
-Remaining Burst Time: 95
-Total Block Count: 3
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 451
-Remaining Burst Time: 95
-Total Block Count: 3
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 436
-Remaining Burst Time: 80
-Total Block Count: 3
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 436
-Remaining Burst Time: 80
-Total Block Count: 3
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 421
-Remaining Burst Time: 65
-Total Block Count: 3
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 421
-Remaining Burst Time: 65
-Total Block Count: 3
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 406
-Remaining Burst Time: 50
-Total Block Count: 3
-
-Priority Boost
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 406
-Remaining Burst Time: 50
-Total Block Count: 3
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 401
-Remaining Burst Time: 45
-Total Block Count: 3
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 401
-Remaining Burst Time: 45
-Total Block Count: 3
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 391
-Remaining Burst Time: 35
-Total Block Count: 3
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 391
-Remaining Burst Time: 35
-Total Block Count: 3
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 376
-Remaining Burst Time: 20
-Total Block Count: 3
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 376
-Remaining Burst Time: 20
-Total Block Count: 3
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 361
-Remaining Burst Time: 5
-Total Block Count: 3
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 361
-Remaining Burst Time: 5
-Total Block Count: 3
-
----After Running---
-
-Process ID: 1
-Process State: Blocked
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 356
-Remaining Burst Time: 0
-Total Block Count: 3
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 356
-Remaining Burst Time: 346
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 351
-Remaining Burst Time: 341
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 351
-Remaining Burst Time: 341
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 341
-Remaining Burst Time: 331
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 341
-Remaining Burst Time: 331
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 326
-Remaining Burst Time: 316
-Total Block Count: 4
-
-Priority Boost
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 326
-Remaining Burst Time: 316
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 321
-Remaining Burst Time: 311
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 321
-Remaining Burst Time: 311
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 311
-Remaining Burst Time: 301
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 311
-Remaining Burst Time: 301
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 296
-Remaining Burst Time: 286
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 296
-Remaining Burst Time: 286
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 281
-Remaining Burst Time: 271
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 281
-Remaining Burst Time: 271
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 266
-Remaining Burst Time: 256
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 266
-Remaining Burst Time: 256
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 251
-Remaining Burst Time: 241
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 251
-Remaining Burst Time: 241
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 236
-Remaining Burst Time: 226
-Total Block Count: 4
-
-Priority Boost
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 236
-Remaining Burst Time: 226
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 231
-Remaining Burst Time: 221
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 231
-Remaining Burst Time: 221
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 221
-Remaining Burst Time: 211
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 221
-Remaining Burst Time: 211
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 206
-Remaining Burst Time: 196
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 206
-Remaining Burst Time: 196
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 191
-Remaining Burst Time: 181
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 191
-Remaining Burst Time: 181
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 176
-Remaining Burst Time: 166
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 176
-Remaining Burst Time: 166
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 161
-Remaining Burst Time: 151
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 161
-Remaining Burst Time: 151
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 146
-Remaining Burst Time: 136
-Total Block Count: 4
-
-Priority Boost
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 146
-Remaining Burst Time: 136
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 141
-Remaining Burst Time: 131
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 141
-Remaining Burst Time: 131
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 131
-Remaining Burst Time: 121
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 131
-Remaining Burst Time: 121
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 116
-Remaining Burst Time: 106
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 116
-Remaining Burst Time: 106
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 101
-Remaining Burst Time: 91
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 101
-Remaining Burst Time: 91
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 86
-Remaining Burst Time: 76
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 86
-Remaining Burst Time: 76
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 71
-Remaining Burst Time: 61
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 71
-Remaining Burst Time: 61
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 56
-Remaining Burst Time: 46
-Total Block Count: 4
-
-Priority Boost
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 56
-Remaining Burst Time: 46
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 51
-Remaining Burst Time: 41
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 1
-Process Type: CPU_BOUND
-Remaining Runtime: 51
-Remaining Burst Time: 41
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 41
-Remaining Burst Time: 31
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 41
-Remaining Burst Time: 31
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 26
-Remaining Burst Time: 16
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 26
-Remaining Burst Time: 16
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Running
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 11
-Remaining Burst Time: 1
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 2
-Process Type: CPU_BOUND
-Remaining Runtime: 11
-Remaining Burst Time: 1
-Total Block Count: 4
-
----After Running---
-
-Process ID: 1
-Process State: Blocked
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 10
-Remaining Burst Time: 0
-Total Block Count: 4
-
----Before Running---
-
-Process ID: 1
-Process State: Ready
-Process Priority Level: 0
-Process Type: CPU_BOUND
-Remaining Runtime: 10
+Process Type: IO_BOUND
+Remaining Runtime: 37
 Remaining Burst Time: 10
+Total Block Count: 33
+
+---After Running---
+
+Process ID: 2
+Process State: Running
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 32
+Remaining Burst Time: 5
+Total Block Count: 33
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 1206
+Remaining Burst Time: 383
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1196
+Remaining Burst Time: 373
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 32
+Remaining Burst Time: 5
+Total Block Count: 33
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 27
+Remaining Burst Time: 0
+Total Block Count: 33
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 27
+Remaining Burst Time: 8
+Total Block Count: 34
+
+---After Running---
+
+Process ID: 2
+Process State: Running
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 22
+Remaining Burst Time: 3
+Total Block Count: 34
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 22
+Remaining Burst Time: 3
+Total Block Count: 34
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 19
+Remaining Burst Time: 0
+Total Block Count: 34
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 19
+Remaining Burst Time: 4
+Total Block Count: 35
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 15
+Remaining Burst Time: 0
+Total Block Count: 35
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 15
+Remaining Burst Time: 9
+Total Block Count: 36
+
+---After Running---
+
+Process ID: 2
+Process State: Running
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 10
+Remaining Burst Time: 4
+Total Block Count: 36
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 1
+Process Type: IO_BOUND
+Remaining Runtime: 10
+Remaining Burst Time: 4
+Total Block Count: 36
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 6
+Remaining Burst Time: 0
+Total Block Count: 36
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 6
+Remaining Burst Time: 4
+Total Block Count: 37
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 2
+Remaining Burst Time: 0
+Total Block Count: 37
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 2
+Remaining Burst Time: 1
+Total Block Count: 38
+
+---After Running---
+
+Process ID: 2
+Process State: Blocked
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 1
+Remaining Burst Time: 0
+Total Block Count: 38
+
+---Before Running---
+
+Process ID: 2
+Process State: Ready
+Process Priority Level: 0
+Process Type: IO_BOUND
+Remaining Runtime: 1
+Remaining Burst Time: 1
+Total Block Count: 39
+
+---After Running---
+
+Process ID: 2
+Process State: Terminated
+Process Priority Level: -1
+Process Type: IO_BOUND
+Remaining Runtime: 0
+Remaining Burst Time: 0
+Total Block Count: 39
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1196
+Remaining Burst Time: 373
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1181
+Remaining Burst Time: 358
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1181
+Remaining Burst Time: 358
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1166
+Remaining Burst Time: 343
+Total Block Count: 0
+
+Priority Boost
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 1166
+Remaining Burst Time: 343
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 1161
+Remaining Burst Time: 338
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 1161
+Remaining Burst Time: 338
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1151
+Remaining Burst Time: 328
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1151
+Remaining Burst Time: 328
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1136
+Remaining Burst Time: 313
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1136
+Remaining Burst Time: 313
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1121
+Remaining Burst Time: 298
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1121
+Remaining Burst Time: 298
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1106
+Remaining Burst Time: 283
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1106
+Remaining Burst Time: 283
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1091
+Remaining Burst Time: 268
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1091
+Remaining Burst Time: 268
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1076
+Remaining Burst Time: 253
+Total Block Count: 0
+
+Priority Boost
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 1076
+Remaining Burst Time: 253
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 1071
+Remaining Burst Time: 248
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 1071
+Remaining Burst Time: 248
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1061
+Remaining Burst Time: 238
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1061
+Remaining Burst Time: 238
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1046
+Remaining Burst Time: 223
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1046
+Remaining Burst Time: 223
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1031
+Remaining Burst Time: 208
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1031
+Remaining Burst Time: 208
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1016
+Remaining Burst Time: 193
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1016
+Remaining Burst Time: 193
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1001
+Remaining Burst Time: 178
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 1001
+Remaining Burst Time: 178
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 986
+Remaining Burst Time: 163
+Total Block Count: 0
+
+Priority Boost
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 986
+Remaining Burst Time: 163
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 981
+Remaining Burst Time: 158
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 981
+Remaining Burst Time: 158
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 971
+Remaining Burst Time: 148
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 971
+Remaining Burst Time: 148
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 956
+Remaining Burst Time: 133
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 956
+Remaining Burst Time: 133
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 941
+Remaining Burst Time: 118
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 941
+Remaining Burst Time: 118
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 926
+Remaining Burst Time: 103
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 926
+Remaining Burst Time: 103
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 911
+Remaining Burst Time: 88
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 911
+Remaining Burst Time: 88
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 896
+Remaining Burst Time: 73
+Total Block Count: 0
+
+Priority Boost
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 896
+Remaining Burst Time: 73
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 891
+Remaining Burst Time: 68
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 891
+Remaining Burst Time: 68
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 881
+Remaining Burst Time: 58
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 881
+Remaining Burst Time: 58
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 866
+Remaining Burst Time: 43
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 866
+Remaining Burst Time: 43
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 851
+Remaining Burst Time: 28
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 851
+Remaining Burst Time: 28
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 836
+Remaining Burst Time: 13
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 836
+Remaining Burst Time: 13
+Total Block Count: 0
+
+---After Running---
+
+Process ID: 1
+Process State: Blocked
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 823
+Remaining Burst Time: 0
+Total Block Count: 0
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 823
+Remaining Burst Time: 62
+Total Block Count: 1
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 818
+Remaining Burst Time: 57
+Total Block Count: 1
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 818
+Remaining Burst Time: 57
+Total Block Count: 1
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 808
+Remaining Burst Time: 47
+Total Block Count: 1
+
+Priority Boost
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 808
+Remaining Burst Time: 47
+Total Block Count: 1
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 803
+Remaining Burst Time: 42
+Total Block Count: 1
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 803
+Remaining Burst Time: 42
+Total Block Count: 1
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 793
+Remaining Burst Time: 32
+Total Block Count: 1
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 793
+Remaining Burst Time: 32
+Total Block Count: 1
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 778
+Remaining Burst Time: 17
+Total Block Count: 1
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 778
+Remaining Burst Time: 17
+Total Block Count: 1
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 763
+Remaining Burst Time: 2
+Total Block Count: 1
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 763
+Remaining Burst Time: 2
+Total Block Count: 1
+
+---After Running---
+
+Process ID: 1
+Process State: Blocked
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 761
+Remaining Burst Time: 0
+Total Block Count: 1
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 761
+Remaining Burst Time: 328
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 756
+Remaining Burst Time: 323
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 756
+Remaining Burst Time: 323
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 746
+Remaining Burst Time: 313
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 746
+Remaining Burst Time: 313
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 731
+Remaining Burst Time: 298
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 731
+Remaining Burst Time: 298
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 716
+Remaining Burst Time: 283
+Total Block Count: 2
+
+Priority Boost
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 716
+Remaining Burst Time: 283
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 711
+Remaining Burst Time: 278
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 711
+Remaining Burst Time: 278
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 701
+Remaining Burst Time: 268
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 701
+Remaining Burst Time: 268
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 686
+Remaining Burst Time: 253
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 686
+Remaining Burst Time: 253
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 671
+Remaining Burst Time: 238
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 671
+Remaining Burst Time: 238
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 656
+Remaining Burst Time: 223
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 656
+Remaining Burst Time: 223
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 641
+Remaining Burst Time: 208
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 641
+Remaining Burst Time: 208
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 626
+Remaining Burst Time: 193
+Total Block Count: 2
+
+Priority Boost
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 626
+Remaining Burst Time: 193
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 621
+Remaining Burst Time: 188
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 621
+Remaining Burst Time: 188
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 611
+Remaining Burst Time: 178
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 611
+Remaining Burst Time: 178
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 596
+Remaining Burst Time: 163
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 596
+Remaining Burst Time: 163
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 581
+Remaining Burst Time: 148
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 581
+Remaining Burst Time: 148
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 566
+Remaining Burst Time: 133
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 566
+Remaining Burst Time: 133
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 551
+Remaining Burst Time: 118
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 551
+Remaining Burst Time: 118
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 536
+Remaining Burst Time: 103
+Total Block Count: 2
+
+Priority Boost
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 536
+Remaining Burst Time: 103
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 531
+Remaining Burst Time: 98
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 531
+Remaining Burst Time: 98
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 521
+Remaining Burst Time: 88
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 521
+Remaining Burst Time: 88
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 506
+Remaining Burst Time: 73
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 506
+Remaining Burst Time: 73
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 491
+Remaining Burst Time: 58
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 491
+Remaining Burst Time: 58
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 476
+Remaining Burst Time: 43
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 476
+Remaining Burst Time: 43
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 461
+Remaining Burst Time: 28
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 461
+Remaining Burst Time: 28
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 446
+Remaining Burst Time: 13
+Total Block Count: 2
+
+Priority Boost
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 446
+Remaining Burst Time: 13
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 441
+Remaining Burst Time: 8
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 441
+Remaining Burst Time: 8
+Total Block Count: 2
+
+---After Running---
+
+Process ID: 1
+Process State: Blocked
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 433
+Remaining Burst Time: 0
+Total Block Count: 2
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 433
+Remaining Burst Time: 155
+Total Block Count: 3
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 428
+Remaining Burst Time: 150
+Total Block Count: 3
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 428
+Remaining Burst Time: 150
+Total Block Count: 3
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 418
+Remaining Burst Time: 140
+Total Block Count: 3
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 418
+Remaining Burst Time: 140
+Total Block Count: 3
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 403
+Remaining Burst Time: 125
+Total Block Count: 3
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 403
+Remaining Burst Time: 125
+Total Block Count: 3
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 388
+Remaining Burst Time: 110
+Total Block Count: 3
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 388
+Remaining Burst Time: 110
+Total Block Count: 3
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 373
+Remaining Burst Time: 95
+Total Block Count: 3
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 373
+Remaining Burst Time: 95
+Total Block Count: 3
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 358
+Remaining Burst Time: 80
+Total Block Count: 3
+
+Priority Boost
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 358
+Remaining Burst Time: 80
+Total Block Count: 3
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 353
+Remaining Burst Time: 75
+Total Block Count: 3
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 353
+Remaining Burst Time: 75
+Total Block Count: 3
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 343
+Remaining Burst Time: 65
+Total Block Count: 3
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 343
+Remaining Burst Time: 65
+Total Block Count: 3
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 328
+Remaining Burst Time: 50
+Total Block Count: 3
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 328
+Remaining Burst Time: 50
+Total Block Count: 3
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 313
+Remaining Burst Time: 35
+Total Block Count: 3
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 313
+Remaining Burst Time: 35
+Total Block Count: 3
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 298
+Remaining Burst Time: 20
+Total Block Count: 3
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 298
+Remaining Burst Time: 20
+Total Block Count: 3
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 283
+Remaining Burst Time: 5
+Total Block Count: 3
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 283
+Remaining Burst Time: 5
+Total Block Count: 3
+
+---After Running---
+
+Process ID: 1
+Process State: Blocked
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 278
+Remaining Burst Time: 0
+Total Block Count: 3
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 278
+Remaining Burst Time: 108
+Total Block Count: 4
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 273
+Remaining Burst Time: 103
+Total Block Count: 4
+
+Priority Boost
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 273
+Remaining Burst Time: 103
+Total Block Count: 4
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 268
+Remaining Burst Time: 98
+Total Block Count: 4
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 268
+Remaining Burst Time: 98
+Total Block Count: 4
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 258
+Remaining Burst Time: 88
+Total Block Count: 4
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 258
+Remaining Burst Time: 88
+Total Block Count: 4
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 243
+Remaining Burst Time: 73
+Total Block Count: 4
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 243
+Remaining Burst Time: 73
+Total Block Count: 4
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 228
+Remaining Burst Time: 58
+Total Block Count: 4
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 228
+Remaining Burst Time: 58
+Total Block Count: 4
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 213
+Remaining Burst Time: 43
+Total Block Count: 4
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 213
+Remaining Burst Time: 43
+Total Block Count: 4
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 198
+Remaining Burst Time: 28
+Total Block Count: 4
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 198
+Remaining Burst Time: 28
+Total Block Count: 4
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 183
+Remaining Burst Time: 13
+Total Block Count: 4
+
+Priority Boost
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 183
+Remaining Burst Time: 13
+Total Block Count: 4
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 178
+Remaining Burst Time: 8
+Total Block Count: 4
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 178
+Remaining Burst Time: 8
+Total Block Count: 4
+
+---After Running---
+
+Process ID: 1
+Process State: Blocked
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 170
+Remaining Burst Time: 0
+Total Block Count: 4
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 170
+Remaining Burst Time: 159
 Total Block Count: 5
 
 ---After Running---
@@ -3510,8 +3084,8 @@ Process ID: 1
 Process State: Running
 Process Priority Level: 1
 Process Type: CPU_BOUND
-Remaining Runtime: 5
-Remaining Burst Time: 5
+Remaining Runtime: 165
+Remaining Burst Time: 154
 Total Block Count: 5
 
 ---Before Running---
@@ -3520,9 +3094,293 @@ Process ID: 1
 Process State: Ready
 Process Priority Level: 1
 Process Type: CPU_BOUND
-Remaining Runtime: 5
-Remaining Burst Time: 5
+Remaining Runtime: 165
+Remaining Burst Time: 154
 Total Block Count: 5
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 155
+Remaining Burst Time: 144
+Total Block Count: 5
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 155
+Remaining Burst Time: 144
+Total Block Count: 5
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 140
+Remaining Burst Time: 129
+Total Block Count: 5
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 140
+Remaining Burst Time: 129
+Total Block Count: 5
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 125
+Remaining Burst Time: 114
+Total Block Count: 5
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 125
+Remaining Burst Time: 114
+Total Block Count: 5
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 110
+Remaining Burst Time: 99
+Total Block Count: 5
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 110
+Remaining Burst Time: 99
+Total Block Count: 5
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 95
+Remaining Burst Time: 84
+Total Block Count: 5
+
+Priority Boost
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 95
+Remaining Burst Time: 84
+Total Block Count: 5
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 90
+Remaining Burst Time: 79
+Total Block Count: 5
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 90
+Remaining Burst Time: 79
+Total Block Count: 5
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 80
+Remaining Burst Time: 69
+Total Block Count: 5
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 80
+Remaining Burst Time: 69
+Total Block Count: 5
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 65
+Remaining Burst Time: 54
+Total Block Count: 5
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 65
+Remaining Burst Time: 54
+Total Block Count: 5
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 50
+Remaining Burst Time: 39
+Total Block Count: 5
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 50
+Remaining Burst Time: 39
+Total Block Count: 5
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 35
+Remaining Burst Time: 24
+Total Block Count: 5
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 35
+Remaining Burst Time: 24
+Total Block Count: 5
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 20
+Remaining Burst Time: 9
+Total Block Count: 5
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 2
+Process Type: CPU_BOUND
+Remaining Runtime: 20
+Remaining Burst Time: 9
+Total Block Count: 5
+
+---After Running---
+
+Process ID: 1
+Process State: Blocked
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 11
+Remaining Burst Time: 0
+Total Block Count: 5
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 11
+Remaining Burst Time: 11
+Total Block Count: 6
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 6
+Remaining Burst Time: 6
+Total Block Count: 6
+
+Priority Boost
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 0
+Process Type: CPU_BOUND
+Remaining Runtime: 6
+Remaining Burst Time: 6
+Total Block Count: 6
+
+---After Running---
+
+Process ID: 1
+Process State: Running
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 1
+Remaining Burst Time: 1
+Total Block Count: 6
+
+---Before Running---
+
+Process ID: 1
+Process State: Ready
+Process Priority Level: 1
+Process Type: CPU_BOUND
+Remaining Runtime: 1
+Remaining Burst Time: 1
+Total Block Count: 6
 
 ---After Running---
 
@@ -3532,6 +3390,6 @@ Process Priority Level: -1
 Process Type: CPU_BOUND
 Remaining Runtime: 0
 Remaining Burst Time: 0
-Total Block Count: 5
+Total Block Count: 6
 
-Total Scheduler Time Elapsed: 1906 ticks
+Total Scheduler Time Elapsed: 1759 ticks

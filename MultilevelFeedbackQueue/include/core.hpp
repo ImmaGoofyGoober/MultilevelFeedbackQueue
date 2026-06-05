@@ -9,10 +9,10 @@
 
 class Core {
 private:
-	MLFQ& mlfq_;
+	const MLFQ& mlfq_;
 
 public:
-	Core(MLFQ& mlfq)
+	Core(const MLFQ& mlfq)
 		: mlfq_(mlfq)
 	{
 
