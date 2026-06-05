@@ -16,7 +16,7 @@ void MLFQ::PriorityBoost(){
 }
 
 uint32_t MLFQ::GetTimeSlice(std::unique_ptr<Process>& processPtr) const{
-	return queues_[static_cast<uint32_t>(processPtr->GetPriorityLevel())].timeSlice;
+	return queues_[static_cast<int>(processPtr->GetPriorityLevel())].timeSlice;
 }
 
 size_t MLFQ::GetBlockedProcessesCount() const{
